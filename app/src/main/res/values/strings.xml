@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">journal</string>
+    <string name="remove">Remove</string>
+
+    <string name="app_namee">Memories</string>
+    <string name="my_memories">My Memories</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>

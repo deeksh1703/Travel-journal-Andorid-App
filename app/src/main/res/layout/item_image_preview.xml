@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="84dp"
+    android:layout_height="84dp"
+    android:layout_marginEnd="12dp">
+
+    <ImageView
+        android:id="@+id/ivThumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image_item_bg"/>
+
+    <!-- optional small remove button at top-right -->
+    <ImageButton
+        android:id="@+id/btnRemove"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="6dp"
+        android:background="@drawable/circle_white_bg"
+        android:padding="2dp"
+        android:src="@drawable/ic_close_small"
+        android:contentDescription="@string/remove" />
+</FrameLayout>
